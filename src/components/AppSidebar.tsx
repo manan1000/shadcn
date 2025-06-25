@@ -48,7 +48,7 @@ const items = [
 const AppSidebar = () => {
     return (
         <Sidebar collapsible="icon">
-            <SidebarHeader>
+            <SidebarHeader className="py-4">
                 <SidebarMenuItem>
                     <SidebarMenuButton asChild>
                         <Link href="/">
@@ -58,7 +58,6 @@ const AppSidebar = () => {
                     </SidebarMenuButton>
                 </SidebarMenuItem>
             </SidebarHeader>
-            <SidebarSeparator />
             <SidebarContent>
                 <SidebarGroup>
                     <SidebarGroupLabel>
